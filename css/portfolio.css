@@ -1,0 +1,121 @@
+/* global settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-image: linear-gradient(#b6d6d8, #649094);
+    /* padding: 10px 50px; */
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+#navbar ul li a {
+    padding: 20px;
+    margin: 0 0.25em;
+    color: #fff;
+    text-shadow: 0 2px 4px rgba(0,0,0,.5);
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.logo {
+    height: 70px;
+}
+
+#navbar ul li a:hover {
+    color: #af232b;
+}
+/* end of navbar */
+
+/* Section setting */
+
+#l-section {
+    display: flex;
+    height: 600px;
+    background: url("/images/telephone.jpg") no-repeat center center/cover;
+}
+
+#l-section .p-container {
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+    background-color: rgba(221, 190, 190, 0.2);
+}
+
+.p-container .first-content ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.p-container .first-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-content .r-logo {
+    width: 200px;
+    padding-left: 10px;
+    margin-left: 10px;
+    color:#CCAFA5;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 900;
+    border-bottom: 2px solid #fff;
+}
+
+.first-content .g-name {
+    font-size: 20px;
+    color:#CCAFA5;
+    padding-left: 20px;
+}
+
+#l-section .sec-content{
+    display: flex;
+}
+
+.sec-content .m-names{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    font-size: 15px;
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 900;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+/* pseudo class for li */
+.first-content .r-logo:hover{
+    color: #fff;
+} 
+.first-content .g-name:hover{
+    color: #fff;
+}
+.sec-content .m-names li:hover{
+    color: #CCAFA5;
+}
+
+/* End of Section */
