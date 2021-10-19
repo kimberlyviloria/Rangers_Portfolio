@@ -38,10 +38,13 @@ a {
     line-height: 10px;
 }
 
-/* .logo {
-    height: 20px;
-} */
-
+.logo {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.pranger {
+    width: 35px;
+}
 #navbar ul li a:hover {
     color: #af232b;
 }
